@@ -1,6 +1,6 @@
 # gitlocal
 
-A [pre-commit](https://pre-commit.com) hook that prevents committing files marked as local-only. If your CLI tool generates credentials or machine-specific config inside a project directory, you can drop an empty `.gitlocal` marker file next to them and this hook will block any attempt to commit files from that directory.
+A [pre-commit](https://pre-commit.com) hook that prevents committing files marked as local-only. If your CLI tool generates credentials or machine-specific config inside a project directory, you can drop an empty `.gitlocal` marker file next to them and this hook will block any attempt to commit files from that directory. See the [full writeup](https://nesbitt.io/2026/03/06/gitlocal.html) for the motivation behind this.
 
 There are three ways to mark files:
 
