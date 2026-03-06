@@ -1,0 +1,6 @@
+- id: gitlocal
+  name: gitlocal
+  description: Prevent committing files in directories containing a .gitlocal marker
+  entry: gitlocal.sh
+  language: script
+  always_run: true
